@@ -5,9 +5,9 @@ xkb_symbols "latin(type4)" {
     name[Group1]= "Hungarian (Programmers)";
 
     key <TLDE> { [   grave,      asciitilde,    notsign ]};
-    key <AE01> { [       1,      exclam,        dead_tilde, U00b2       ]};
-    key <AE02> { [       2,      at,    dead_caron, U00b3       ]};
-    key <AE03> { [       3,      numbersign,    dead_circumflex, U00b9]};
+    key <AE01> { [       1,      exclam,        dead_tilde, U00b9       ]};
+    key <AE02> { [       2,      at,    dead_caron, U00b2       ]};
+    key <AE03> { [       3,      numbersign,    dead_circumflex, U00b3]};
     key <AE04> { [   4,  dollar,    sterling,   dead_breve      ]};
     key <AE05> { [   5,  percent,       EuroSign, dead_abovering]};
     key <AE06> { [       6,      asciicircum, dead_ogonek   ]};
