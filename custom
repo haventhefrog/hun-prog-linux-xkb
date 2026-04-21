@@ -14,13 +14,13 @@ xkb_symbols "latin(type4)" {
     key <AE07> { [       7,      ampersand,     dead_grave]};
     key <AE08> { [       8,      asterisk,      dead_abovedot]};
     key <AE09> { [       9,      parenleft,     dead_acute]};
-    key <AE10> { [       0,      parenright, dead_doubleacute ]};
-    key <AE11> { [   minus,      underscore, U30fc, dead_diaeresis      ]};
+    key <AE10> { [       0,      parenright, U030b, dead_doubleacute   ]};
+    key <AE11> { [   minus,      underscore, U0308, dead_diaeresis      ]};
     key <AE12> { [   equal,      plus, endash, dead_cedilla     ]};
     key <AD01> { [ q, Q, odoubleacute, Odoubleacute ] };
     key <AD02> { [ w, W, udoubleacute, Udoubleacute ] };
     key <AD03> { [ e, E, eacute, Eacute ] };
-    key <AD04> { [ r, R, registered, paragraph ] };
+    key <AD04> { [ r, R, U030c, U028C ] };
     key <AD05> { [ t, T, yen, trademark ] };
     key <AD06> { [ y, Y, udiaeresis, Udiaeresis ] };
     key <AD07> { [ u, U, uacute, Uacute ] };
@@ -34,7 +34,7 @@ xkb_symbols "latin(type4)" {
     key <AC03> { [ d, D, emacron, Emacron ] };
     key <AC04> { [ f, F, ediaeresis, Ediaeresis ] };
     key <AC05> { [ g, G, uparrow, downarrow ] };
-    key <AC06> { [ h, H, hstroke, Hstroke ] };
+    key <AC06> { [ h, H, U0321, U30fc ] };
     key <AC07> { [ j, J, umacron, Umacron ] };
     key <AC08> { [ k, K, imacron, Imacron ] };
     key <AC09> { [ l, L, omacron, Omacron ] };
@@ -48,7 +48,7 @@ xkb_symbols "latin(type4)" {
     key <AB04> { [ v, V, leftarrow, rightarrow ] };
     key <AB05> { [ b, B, downarrow, uparrow ] };
     key <AB06> { [ n, N, rightarrow, leftarrow ] };
-    key <AB07> { [ m, M, schwa, U026A ] };
+    key <AB07> { [ m, M, idiaeresis, Idiaeresis ] };
     key <AB08> { [ comma, less, U00ab, U201a ] };
     key <AB09> { [ period, greater, U00bb, U2026 ] };
     key <AB10> { [ slash, question, exclamdown, questiondown ] };
